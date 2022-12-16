@@ -11,7 +11,7 @@
 ```
 ## Animation of the App
 
-![image](./to-do-app.mp4)
+![image](./to-do.gif)
 
 ## Visulation of the App
 
