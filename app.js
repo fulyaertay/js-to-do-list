@@ -43,7 +43,7 @@ function createTemplate(task){
 form.addEventListener('submit',e=>{
     e.preventDefault();
 
-    const todo=form.add.value.trim().toLowerCase;
+    const todo=form.add.value.trim().toLowerCase();
     if (todo.length){
         createTemplate(todo);
         form.reset();
