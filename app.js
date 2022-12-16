@@ -10,10 +10,20 @@ searchInput.addEventListener('keyup',e=>{
     createFilter(searchValue);
 
 })
-
+//Display filtered value if exist
 const createFilter=(searchValue)=>{
     Array.from(todoList.children).filter((todos)=>{
-        return todos.textContent.includes(searchValue);
+        return !todos.textContent.toLowerCase().includes(searchValue);
+    }).forEach((todos)=>{
+        todos.classList.add('filtered')
+
+    })
+
+    Array.from(todoList.children).filter((todos)=>{
+        return todos.textContent.toLowerCase().includes(searchValue);
+    }).forEach((todos)=>{
+        todos.classList.remove('filtered')
+
     })
 
 }
