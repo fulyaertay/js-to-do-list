@@ -11,11 +11,11 @@
 ```
 ## Animation of the App
 
-![image](to-do-app.webm)
+![image](./to-do-app.webm)
 
 ## Visulation of the App
 
-![image](to-do-app.png)
+![image](./to-do-app.png)
 
 ## Description
 Project aims to list,add and delete tasks via a JavaScript, HTML, CSS and Bootstrap.
