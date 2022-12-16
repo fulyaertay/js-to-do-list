@@ -9,7 +9,7 @@
 • User can filter according to task name.
 
 ```
-## Animation of the Website
+## Animation of the App
 
 ![image](./to-do-app.webm)
 
